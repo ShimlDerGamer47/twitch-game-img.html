@@ -16,6 +16,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: var(--font-family);
 }
 
 body {
@@ -46,25 +47,11 @@ body::-webkit-scrollbar {
   pointer-events: none;
 }
 
-.twitch-categories-img[alt="Twitch Kategorie Bild"] {
-  background: transparent;
-  width: 540px;
-  height: 960px;
-  object-fit: cover;
-  filter: grayscale(0%) brightness(100%) blur(0px) contrast(100%);
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
-  justify-content: center;
-}
-
 .twitch-categories-img {
   background: transparent;
-  width: 540px;
-  height: 960px;
+  width: 100vw;
+  height: 100vh;
   object-fit: cover;
-  filter: grayscale(1%) brightness(90%) blur(0.5px) contrast(105%);
   display: flex;
   align-items: center;
   align-content: center;
